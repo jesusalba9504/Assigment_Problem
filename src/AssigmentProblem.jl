@@ -1,5 +1,9 @@
 module AssigmentProblem
 
-greet() = print("Hello World!")
+using JuMP, GLPK
+
+export solve_assigm_prob
+
+include("solving_AP.jl")
 
 end # module
