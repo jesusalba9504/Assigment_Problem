@@ -1,0 +1,10 @@
+name = "AssigmentProblem"
+uuid = "71f2beb2-b8b5-579c-bd02-f2e2f2dcc08d"
+authors = ["Jesus Alba <jesus.alba9504@gmail.com>"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
